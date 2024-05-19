@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class ChooseAdvertisedCarTypePage extends BasePage {
 
-    @FindBy()
+    @FindBy(xpath = "//div//a[@class=\"kep szemelyauto\"]")
     private WebElement passengerCarAdAdvertisementButton;
 
     public void selectAdvertisedCarsType(){
